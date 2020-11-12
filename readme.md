@@ -6,4 +6,4 @@ See the TimeRTC example sketches privided with the Time library download for usa
 
 
 The TinyWireM library is required to use this lib.
-https://github.com/adafruit/TinyWireM/
+[https://github.com/adafruit/TinyWireM/](https://github.com/adafruit/TinyWireM/)
