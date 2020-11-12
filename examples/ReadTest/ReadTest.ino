@@ -6,6 +6,7 @@ void setup() {
   Serial.begin(9600);
   while (!Serial) ; // wait for serial
   delay(200);
+  RTC.begin();
   Serial.println("DS1307RTC Read Test");
   Serial.println("-------------------");
 }

@@ -31,9 +31,12 @@
 
 DS1307RTC::DS1307RTC()
 {
-  Wire.begin();
+
 }
-  
+
+void DS1307RTC::begin(){
+	  TinyWireM.begin();
+} 
 // PUBLIC FUNCTIONS
 time_t DS1307RTC::get()   // Aquire data from buffer and convert to time_t
 {

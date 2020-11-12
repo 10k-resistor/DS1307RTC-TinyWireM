@@ -12,7 +12,7 @@ tmElements_t tm;
 void setup() {
   bool parse=false;
   bool config=false;
-
+  RTC.begin();
   // get the date and time the compiler was run
   if (getDate(__DATE__) && getTime(__TIME__)) {
     parse = true;
