@@ -23,12 +23,8 @@
  */
 
 
-#if defined (__AVR_ATtiny84__) || defined(__AVR_ATtiny85__) || (__AVR_ATtiny2313__)
 #include <TinyWireM.h>
 #define Wire TinyWireM
-#else
-#include <Wire.h>
-#endif
 #include "DS1307RTC.h"
 
 #define DS1307_CTRL_ID 0x68 
